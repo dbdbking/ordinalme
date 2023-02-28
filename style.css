@@ -22,6 +22,7 @@ img {
 
 
 
+
 .overlay{
   display:block;
   z-index:10;
@@ -142,6 +143,23 @@ img {
   background: url(./graphics/check.svg);
   background-size: 1.2rem 1.2rem;
 }
+
+
+
+@media (max-width: 600px) {
+  img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .overlay{
+
+  width:300px;
+  }
+}
+
+
+
 
 
 
